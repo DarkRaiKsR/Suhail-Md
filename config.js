@@ -6,15 +6,15 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 global.audio= "" ;  
 global.video= "" ;
 global.port =process.env.PORT
-global.appUrl=process.env.APP_URL || "postgres://koyeb-adm:kR0OM6mVATGX@ep-young-hall-a2rojz4x.eu-central-1.pg.koyeb.app/koyebdb"                       // put your app url here,
+global.appUrl=process.env.APP_URL || ""                       // put your app url here,
 global.email ="saimsamsun789@gmail.com"
 global.location="Lahore,Pakistan."
 
 
-global.mongodb= process.env.MONGODB_URI || "mongodb+srv://romi:romi@cluster0.pwuoewh.mongodb.net/"
+global.mongodb= process.env.MONGODB_URI || "mongodb+srv://QasimRai:Lunmera@atlascluster.ahk537j.mongodb.net/"
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "null"
-global.DATABASE_URL = process.env.DATABASE_URL || "postgres://koyeb-adm:kR0OM6mVATGX@ep-young-hall-a2rojz4x.eu-central-1.pg.koyeb.app/koyebdb"
+global.DATABASE_URL = process.env.DATABASE_URL || "postgres://naveed_user:jR4C57sJsFIBNO18OxxD6CtqzOvhTXYk@dpg-dn5D1nug2bec738cqi4g-a.frankfurt-postgres.render.com/naveed"
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
